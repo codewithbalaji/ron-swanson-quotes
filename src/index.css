@@ -1,0 +1,96 @@
+  body {
+    background-color: #ebedf9 !important;
+  }
+  
+  /* Ensure content is on top of the glass background */
+  .container {
+    position: relative;
+    z-index: 1; /* Ensure content is on top of the background */
+  }
+
+  /* Overall card styling */
+.quote-card {
+  background: linear-gradient(135deg, #000000  0%,  #353534 100%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.quote-card:hover {
+ 
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Card body styling */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Quote text styling */
+.card-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100% ;
+}
+
+/* Save button styling */
+.save-button {
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  width: 150px ;
+}
+
+.save-button:hover {
+  background-color: #ff4c4c;
+  
+}
+
+/* Footer.css */
+footer {
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  footer {
+    font-size: 0.875rem; /* Adjust font size for small screens */
+  }
+
+  footer .container {
+    padding: 0 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
